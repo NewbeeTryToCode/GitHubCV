@@ -5,7 +5,7 @@
         <v-row align="center" justify="center">
           <v-col cols="12">
             <v-row align="center" justify="center">
-              <v-col cols="6" md="3">
+              <v-col cols="10" md="3">
                 <h3 class="indigo--text darken-3 text-center mb-2">
                   Generate your GitHub Curriculum Vitae
                 </h3>
@@ -86,9 +86,6 @@ export default {
         console.log(this.userData);
         console.log(this.userRepo);
       }
-    },
-    downloadPDF() {
-      this.$refs.pdf.generatePdf();
     },
   },
 };
